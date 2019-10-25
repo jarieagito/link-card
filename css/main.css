@@ -9,15 +9,16 @@ html {
 }
 
 a {
+  display: inline-block;
   text-decoration: none;
+  padding: .2em .9em;
+  font-family: Georgia, sans-serif;
+  font-size: 1rem;
 }
 
 .link-card {
-  font-family: Georgia, sans-serif;
-  display: inline-block;
   color: #512200;
   line-height: 1.5;
-  padding: .5em .4em 1rem;
   border-radius: 8px;
   border: solid #9a816d;
   background-color: #dcd4cd;
@@ -25,11 +26,12 @@ a {
 
 h2 {
   font-family: Dosis, sans-serif;
+  font-size: 1.5rem;
+  margin: 1rem 0 0;
 }
 
 .link-card h2 {
   font-weight: bold;
-  font-size: 1.5rem;
 }
 
 .link-card:hover {
@@ -37,21 +39,39 @@ h2 {
 }
 
 .btn {
+  display: inline-block;
+  padding: .4em .75em .5em;
   font-family: Dosis, sans-serif;
-  font-weight: bold;
-  line-height: 1.5;
+  font-weight: 100;
+  font-size: 1rem;
   border-radius: 8px;
   border: solid #785439;
   color: #fff;
   background-color: #785439;
-  text-align: center;
 }
 
 footer {
-  font-size: 1rem;
-  margin: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 div {
   border-top: solid #785439;
+  border-width: 2px;
+}
+
+dl {
+  font-size: .875rem;
+}
+
+dd {
+  display: inline-block;
+  width: 45%;
+  font-style: italic;
+  margin: 0;
+}
+
+dt {
+  display: inline-block;
+  width: 45%;
 }
