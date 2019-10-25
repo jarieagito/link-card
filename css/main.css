@@ -1,11 +1,57 @@
 html {
   box-sizing: border-box;
+  text-decoration: none;
+  background-color: #f0eee8;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-h1 {
+a {
+  text-decoration: none;
+}
+
+.link-card {
+  font-family: Georgia, sans-serif;
+  display: inline-block;
+  color: #512200;
+  line-height: 1.5;
+  padding: .5em .4em 1rem;
+  border-radius: 8px;
+  border: solid #9a816d;
+  background-color: #dcd4cd;
+}
+
+h2 {
   font-family: Dosis, sans-serif;
+}
+
+.link-card h2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+.btn {
+  font-family: Dosis, sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+  border-radius: 8px;
+  border: solid #785439;
+  color: #fff;
+  background-color: #785439;
+  text-align: center;
+}
+
+footer {
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+div {
+  border-top: solid #785439;
 }
